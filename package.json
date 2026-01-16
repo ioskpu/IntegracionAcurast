@@ -1,0 +1,24 @@
+{
+  "name": "acurast-integration",
+  "version": "1.0.0",
+  "description": "Integración con Acurast para consultar deployments",
+  "type": "module",
+  "main": "acurast-query.js",
+  "scripts": {
+    "query": "node acurast-query.js",
+    "test": "node test-connection.js",
+    "deployment": "node query-deployment.js",
+    "explore": "node explore-storage.js"
+  },
+  "keywords": [
+    "acurast",
+    "substrate",
+    "polkadot",
+    "depin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^12.0.2"
+  }
+}
